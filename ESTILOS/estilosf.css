@@ -1,0 +1,88 @@
+/* Estilos generales para todo el cuerpo */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente principal del sitio */
+    background-color: rgb(230, 197, 149); /* Color de fondo suave para toda la página */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+    color: #333; /* Color de texto base */
+}
+
+/* Encabezado del sitio */
+header {
+    background-color: #4d2600; /* Fondo marrón oscuro para simular el color del chocolate */
+    padding: 20px; /* Espaciado interno del encabezado */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+.encabezado {
+    color: #bb7e38; /* Texto blanco para destacar en el fondo marrón */
+    font-size: 36px; /* Tamaño grande para el título principal */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras para mejor legibilidad */
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #4b0c0c; /* Fondo oscuro para el menú */
+    padding: 10px; /* Espaciado interno del menú */
+    text-align: center; /* Centrar los enlaces del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+}
+
+nav ul li {
+    display: inline-block; /* Mostrar los elementos de la lista en línea */
+    margin-right: 15px; /* Espacio entre los enlaces */
+}
+
+nav ul li a {
+    color: rgb(214, 148, 148); /* Texto blanco en los enlaces */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    font-size: 18px; /* Tamaño de fuente */
+    padding: 8px 16px; /* Espacio interno para hacer los enlaces más grandes */
+    transition: background-color 0.3s ease; /* Transición suave cuando se cambia el fondo al pasar el ratón */
+}
+
+nav ul li a:hover {
+    background-color: #965353; /* Cambiar el color de fondo cuando el ratón pasa por encima */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+}
+
+/* Estilo del logo */
+.logo-container {
+    text-align: center; /* Centrar el contenedor del logo */
+    margin: 20px 0; /* Añadir espacio superior e inferior */
+}
+
+/* Estilo del texto descriptivo */
+.centered-text {
+    text-align: center; /* Centrar el texto */
+    font-size: 18px; /* Tamaño de fuente cómodo para lectura */
+    color: #68390a; /* Color marrón oscuro, acorde con el tema de chocolate */
+    margin: 20px 15%; /* Margen para dar espacio al texto y que no ocupe todo el ancho */
+    line-height: 1.6; /* Espaciado entre líneas para mayor legibilidad */
+}
+
+/* Estilo de la imagen del chocolate */
+.product-image {
+    text-align: center; /* Centrar la imagen */
+    margin: 100px;
+
+
+}
+
+.chocolate-image {
+    width: 270px; /* Tamaño de la imagen */
+    height: auto; /* Mantener proporción de la imagen */
+
+}
+
+.copy{
+    text-align: center; /*esta seccion se encarga de darle estilos al foter del copyright*/
+    color: rgb(99, 11, 110);
+}
